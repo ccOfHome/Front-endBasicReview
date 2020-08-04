@@ -1,0 +1,731 @@
+body{
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 999;
+}
+.header .header_content{
+    width: 990px;
+    height: 100%;
+    /* background-color: yellow; */
+    margin: 0 auto;
+}
+
+.header .header_content .header_left{
+    width: 163px;
+    height: 48px;
+    float: left;
+}
+
+.header .header_content .header_left>h1 {
+    height: 100%;
+    width: 100%;
+}
+
+.header .header_content .header_left>h1>a{
+    background-image: url('https://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/header-logo-white-50ca261907.png');
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-size: contain;
+    margin-top: 11px;
+    color: red;
+}
+
+.header .header_content .header_right{
+    width: 504px;
+    height: 70px;
+    /* background-color: green; */
+    float: right;
+    color: white;
+}
+
+.header .header_content .header_right>ul>li{
+    float: left;
+    line-height: 70px;
+    margin-left: 40px;
+}
+
+.header .header_content .header_right>ul>li:hover{
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content{
+    width: 100%;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.content .content_1{
+    width: 100%;
+    height: 778px;
+    position: relative;
+}
+.content .content_1 .box_image{
+    width: 100%;
+    height: 778px;
+    background-image: url('https://p0.meituan.net/travelcube/d2ab674fa0e4c875865e524d82fe15a34372569.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.content .content_1 .boxs{
+    width: 999px;
+    height: 170px;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999px;
+    display: flex;
+    align-items: center;
+}
+
+.content .content_1 .boxs>div{
+    width: 333px;
+    height: 173px;
+    float: left;
+}
+
+.content .content_1 .boxs>div:hover{
+    transform: scale(1.2,1.2);
+}
+
+.content .content_1 .boxs .box_1{
+    background-color: #658ff7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content .content_1 .boxs .box_1>div{
+    width: 333px;
+    height: 35px;
+    position: relative;
+}
+.content .content_1 .boxs .box_1>div>i{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url('https://p0.meituan.net/travelcube/2464977144b4febfe9ed704740fc3555962.png');
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content .content_1 .boxs .box_1>div>span{
+    width: 124px;
+    height: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-size: 26px;
+    margin: 0 0 0 40px;
+    padding: 0 20px 0 0;
+}
+
+.content .content_1 .boxs .box_1>p{
+    width: 333px;
+    height: 16px;
+    line-height: 35px;
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+
+.content .content_1 .boxs .box_2{
+    background-color: #f54c45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .content_1 .boxs .box_2>div{
+    width: 333px;
+    height: 35px;
+    position: relative;
+}
+
+.content .content_1 .boxs .box_2>div>i{
+    width: 30px;
+    height: 30px;
+    background-image: url('https://p1.meituan.net/travelcube/4ddfca5846d86a63aac3be7282f8462b969.png');
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content .content_1 .boxs .box_2>div>span{
+    width: 124px;
+    height: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-size: 26px;
+    margin: 0 0 0 40px;
+    padding: 0 20px 0 0;
+}
+
+.content .content_1 .boxs .box_2>p{
+    width: 333px;
+    height: 16px;
+    line-height: 35px;
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+
+.content .content_1 .boxs .box_3{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .content_1 .boxs .box_3>div{
+    width: 333px;
+    height: 35px;
+    position: relative;
+}
+
+.content .content_1 .boxs .box_3>div>i{
+    width: 30px;
+    height: 30px;
+    background-image: url('https://p0.meituan.net/travelcube/9a6e5f5f194d6d8414d79e516e875f911440.png');
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content .content_1 .boxs .box_3>div>span{
+    width: 124px;
+    height: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-size: 26px;
+    margin: 0 0 0 40px;
+    padding: 0 20px 0 0;
+}
+
+.content .content_1 .boxs .box_3>p{
+    width: 333px;
+    height: 16px;
+    line-height: 35px;
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+
+.content .content_2{
+    width: 100%;
+    /* background-color: greenyellow; */
+}
+
+.content .content_2 .page_2{
+    width: 1000px;
+    height: 1015px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content .content_2 .page_2 .title_2{
+    background-image: url('https://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/serviceintro-cb423af0c3.png');
+    width: 390px;
+    height: 127px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 86px;
+    transform: translateX(-50%);
+    z-index: 998;
+    opacity: 1;
+}
+
+.content .content_2 .page_2 .part_2{
+    position: relative;
+}
+
+.content .content_2 .page_2 .part_2 .text_part{
+    position: relative;
+}
+
+.content .content_2 .page_2 .part_2 .text_part .text_title{
+    width: 400px;
+    height: 40px;
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    top: 350px;
+}
+
+.content .content_2 .page_2 .part_2 .text_part>ul{
+    height: 390px;
+    width: 638px;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content .content_2 .page_2 .part_2 .text_part>ul>li{
+    margin-bottom: 40px;
+}
+
+.content .content_2 .page_2 .part_2 .text_part>ul>li:first-child{
+    margin-top: 100px;
+}
+
+.content .content_2 .page_2 .part_2 .text_part>ul>li:hover{
+    transform: scale(1.2,1.2);
+    transform-origin: 0 0 0;
+    color: orange;
+}
+
+.content .content_2 .page_2 .part_2 .text_part>ul>li>i{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: 100%;
+    color: black;
+    background-image: url('https://p1.meituan.net/travelcube/d021ba06885ae9377e555a76a6a27f762776.png');
+}
+
+.content .content_2 .page_2 .part_2 .text_part>ul>li>div .name{
+    width: 100%;
+    height: 35px;
+    font-size: 26px;
+}
+
+.content .content_2 .page_2 .part_2 .text_part>ul>li>div .dec{
+    width: 100%;
+    height: 16px;
+    font-size: 16px;
+}
+
+
+.content .content_2 .page_2 .part_2 .iphone_part{
+    width: 346px;
+    height: 708px;
+    position: absolute;
+    top: 320px;
+    right: 0;
+}
+
+.content .content_2 .page_2 .part_2 .iphone_part .iphone_out{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s3plus.sankuai.com/v1/mss_c4375b35f5cb4e678b5b55a48c40cf9d/waimai-c-iweb/%E6%89%8B%E6%9C%BA%E5%A4%96%E5%A3%B32%402x.png');
+    background-size: 100%;
+    position: relative;
+}
+
+.content .content_2 .page_2 .part_2 .iphone_part .iphone_out .iphone_in{
+    position: absolute;
+    width: 310px;
+    height: 672px;
+    z-index: 998;
+    top: 18px;
+    left: 18px;
+    background-image: url('https://p0.meituan.net/travelcube/39255a16d132c9c806ee59707b8bff5d705260.png');
+    background-size: 100%;
+}
+
+.content .content_3{
+    height: 900px;
+    background-color: #ffd161;
+}
+
+.content .content_3 .page_3{
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content .content_3 .page_3 .title_3{
+    background-image: url('http://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/story-7c3e0597d5.png');
+    width: 309px;
+    height: 135px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 86px;
+    transform: translateX(-50%);
+    z-index: 998;
+    opacity: 1;
+}
+.content .content_3 .page_3 .part_3{
+    height: 492px;
+    width: 1128px;
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content .content_3 .page_3 .part_3 .arrow_left{
+    position: absolute;
+    top: 170px;
+    left: -50px;
+    width: 15px;
+    height: 25px;
+    padding: 12px;
+    cursor: pointer;
+}
+.content .content_3 .page_3 .part_3 .arrow_right{
+    position: absolute;
+    top: 170px;
+    right: -50px;
+    width: 15px;
+    height: 25px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.content .content_3 .page_3 .part_3 .contain_3{
+    position: relative;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_out{
+    width: 758px;
+    height: 420px;
+    background-color: #ff5c49;
+    position: absolute;
+    border-radius: 4px;
+    right: 76px;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_in{
+    width: 960px;
+    height: 340px;
+    position: absolute;
+    border-radius: 4px;
+    top: 40px;
+    right: 106px;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left{
+    width: 620px;
+    height: 100%;
+    padding: 30px 36px 45px 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left .border_in_left_title_3{
+    width: 544px;
+    height: 34px;
+    font-size: 16px;
+    padding: 0 0 0 40px;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left .border_in_left_title_3>i{
+    background-image: url("https://p0.meituan.net/travelcube/22d5fe01d4eb54ce117cc96377fe9c1d4418.png");
+    background-repeat: no-repeat;
+    background-size: 30px 33.4px;
+}
+
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left .border_in_left_small_title{
+    width: 544px;
+    height: 24px;
+    font-size: 24px;
+    margin: 15px 0 0;
+}
+
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left .border_in_left_div{
+    color: #000000;
+    margin: 15px 0 0;
+    font-size: 24px;
+    width: 544px;
+    height: 24px;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left .border_in_left_p{
+    color: #888888;
+    margin: 16px 0 0;
+    font-size: 16px;
+    width: 544px;
+    margin-top: 16px;
+    letter-spacing: -.3px;
+    line-height: 28px;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left>span{
+    width: 88px;
+    height: 32px;
+    color: #ffbe2e;
+    border: 1px solid #ffbe2e;
+    border-radius: 16px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 45px;
+    font-size: 16px;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_left>span:hover{
+    background-color: #ffbe2e;
+    color: white;
+}
+
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_right{
+    float: right;
+}
+.content .content_3 .page_3 .part_3 .contain_3 .border_in .border_in_right>img{
+    width: 340px;
+    height: 340px;
+}
+
+.content .content_3 .page_3 .part_3>ul{
+    width: 78px;
+    height: 12px;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.content .content_3 .page_3 .part_3>ul>li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-color: white; 
+    border-radius: 50%;
+    margin-right: 14px;
+}
+.content .content_3 .page_3 .part_3>ul>li:hover{
+    background-color: red;
+}
+
+.content .content_4{
+    height: 900px;
+    background-color: #fff;
+}
+
+.content .content_4 .page_4{
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content .content_4 .page_4 .title_4{
+    background-image: url('https://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/news-b87efef440.png');
+    width: 309px;
+    height: 135px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 86px;
+    transform: translateX(-50%);
+    z-index: 998;
+    opacity: 1;
+}
+
+.content .content_4 .page_4 .part_4{
+    height: 492px;
+    width: 1128px;
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left{
+    position: absolute;
+    width: 382px;
+    height: 510px;
+    top: 100px;
+    left: 32px;
+    border-radius: 4px;
+    float: left;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_bottom{
+    width: 378px;
+    height: 510px;
+    background-color: orange;
+    position: absolute;
+    left: 32px;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_bottom>ul{
+    width: 6px;
+    height: 60px;
+    position: absolute;
+    left: 360px;
+    top: 400px;
+    /* background-color: red; */
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_bottom>ul>li{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 4px;
+}
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_bottom>ul>li:hover{
+    background-color: black;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_top{
+    width: 378px;
+    height: 510px;
+    background-color: white;
+    position: absolute;
+    top: -30px;
+    left: 2px;
+    z-index: 998;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_top .part_4_left_top_image{
+    
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_top .part_4_left_top_image>img{
+    width: 378px;
+    height: 215px;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_top .part_4_left_top_title{
+    font-size: 24px;
+    color: #000;
+    line-height: 34px;
+    height: 68px;
+    overflow: hidden;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_top .part_4_left_top_title_text{
+    margin-top: 18px;
+    height: 84px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #888;
+    line-height: 28px;
+    text-overflow: ellipsis;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_top>span{
+    float: left;
+    width: 86px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ffbe2e;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 30px;
+    font-size: 12px;
+    color: #ffbe2e;
+}
+.content .content_4 .page_4 .part_4 .part_4_left .part_4_left_top>span:hover{
+    background-color: #ffbe2e;
+    color: white;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_right{
+    float: right;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_right .border_in_left_title_3{
+    width: 510px;
+    height: 42px;
+    margin: 0 0 36px;
+    font-size: 30px;
+}
+.content .content_4 .page_4 .part_4 .part_4_right>ul>li{
+    width: 100%;
+    height: 21px;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+.content .content_4 .page_4 .part_4 .part_4_right>ul>li:hover{
+    transform: scale(1.2,1.2);
+    transform-origin: 0 0 0;
+    color: orange;
+}
+
+.content .content_4 .page_4 .part_4 .part_4_right .border_in_left_p_all{
+    color: #333333;
+    font-size: 16px;
+}
+.content .content_4 .page_4 .part_4 .part_4_right .border_in_left_p_all:hover{
+    color: orange;
+    font-size: 16px;
+}
+
+.footer{
+    width: 100%;
+    height: 358px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .footer_top{
+    width: 100%;
+    height: 287px;
+    position: relative;
+
+}
+.footer .footer_top .footer_top_left{
+    width: 173px;
+    height: 128px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+}
+.footer .footer_top .footer_top_left>ul{
+    float: left;
+}
+.footer .footer_top .footer_top_left>ul>li{
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.footer .footer_top .footer_top_middle{
+    height: 157px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.footer .footer_top .footer_top_middle>p{
+    line-height: 30px;
+}
+
+.footer .footer_top .footer_top_right{
+    height: 157px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateY(-50%);
+}
+
+.footer .footer_bottom{
+    height: 70px;
+    position: relative;
+}
+
+.footer .footer_bottom .footer_bottom_content{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,23 @@
+{
+  "id": "1981576",
+  "name": "meituan",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "美团zuo'you'jian'tou",
+  "glyphs": [
+    {
+      "icon_id": "2372624",
+      "name": "左右箭头",
+      "font_class": "zuoyoujiantou",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "7444633",
+      "name": "左右箭头",
+      "font_class": "you",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    }
+  ]
+}
