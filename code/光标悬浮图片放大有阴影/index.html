@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>光标悬浮图片放大有阴影</title>
+    <style>
+        .body{
+            display: flex;
+            justify-content: center;
+        }
+        .body div {
+            width: 424px;
+            height: 828px;
+            text-align: center;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .body div img {
+            margin-top: 13px;
+        }
+
+        .body div img:hover{
+            transform: scale(1.2,1.2);
+            box-shadow: 0 0 10px red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div>
+            <img src="./images/u54.png" alt="" width="212px" height="424px">
+        </div>
+    </div>
+</body>
+
+</html>

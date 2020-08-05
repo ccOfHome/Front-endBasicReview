@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轮播图</title>
+    <style>
+        #container {
+            width: 400px;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        #photo {
+            width: 1600px;
+            animation: switch 5s ease-out infinite;
+        }
+
+        #photo>img {
+            float: left;
+            width: 400px;
+            height: 300px;
+        }
+
+        @keyframes switch {
+            0%,20% {
+                margin-left: 0;
+            }
+
+            30%,50% {
+                margin-left: -400px;
+            }
+
+            60%,80% {
+                margin-left: -800px;
+            }
+
+            85%,100% {
+                margin-left: -1200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="photo">
+            <img src="./images/u83.jpg" />
+            <img src="./images/u85.jpg" />
+            <img src="./images/u87.jpg" />
+            <img src="./images/u89.jpg" />
+        </div>
+    </div>
+</body>
+
+</html>

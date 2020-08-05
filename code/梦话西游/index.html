@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四人行</title>
+    <style>
+        html,body{
+            margin: 0;
+            height: 100%;
+        }
+        .bg{
+            height: 100%;
+
+            animation-name: bg;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        .rw{
+            width: 1000px;
+            height: 180px;
+            /* border: 1px solid red; */
+            position: absolute;
+            left: 250px;
+            bottom: 10px;
+        }
+        .box{
+            list-style: none;
+            width: 200px;
+            height: 180px;
+            /* background-color: red; */
+            margin-right: 40px;
+            float: left;
+            overflow: hidden;
+        }
+
+        .box div{
+            width: 1600px;
+            height: 180px;
+
+            animation-name: roles;
+            animation-duration: 1s;
+            animation-timing-function: steps(8);
+            animation-iteration-count: infinite;
+        }
+        .box div img{
+            width: 1600px;
+            height: 180px;
+        }
+
+        @keyframes roles{
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -1600px;
+            }
+        }
+
+        @keyframes bg{
+            from{
+                margin-left: -2000px;
+            }
+            to{
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg" style="background-image: url('./images/background.jpg');"></div>
+    <div class="rw">
+        <div class="box">
+            <div><img src="./images/wk.png" alt=""></div>
+        </div>
+        <div class="box">
+            <div><img src="./images/bj.png" alt=""></div>
+        </div>
+        <div class="box">
+            <div><img src="./images/tc.png" alt=""></div>
+        </div>
+        <div class="box">
+            <div><img src="./images/sc.png" alt=""></div>
+        </div>
+    </div>
+</body>
+
+</html>

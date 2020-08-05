@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呼吸灯</title>
+    <style>
+        .content{
+            margin: 0 auto;
+            width: 400px;
+            height: 600px;
+            border: 1px solid red;
+        }
+        .content .top{
+            width: 400px;
+            height: 400px;
+            background-color: black;
+           
+            box-sizing: border-box;
+            padding: 20px;
+
+            animation-name: top;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .content .top .outer{
+            
+            border: 10px white solid;
+            border-radius: 50%;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+
+            animation-name: outer;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .content .top .outer .inner{
+            box-sizing: border-box;
+            height: 100%;
+            border: 10px white solid;
+            border-radius: 50%;
+        }
+        .content .bottom{
+            width: 400px;
+            height: 200px;
+            text-align: center;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+        }
+
+        @keyframes top {
+            25%{
+                padding: 10px;
+            }
+            50%{
+                padding: 20px;
+            }
+            100%{
+                padding: 20px;
+            }
+        }
+        @keyframes outer {
+            25%{
+                padding: 30px;
+            }
+            50%{
+                padding: 20px;
+            }
+            75%{
+                padding: 30px;
+            }
+            100%{
+                padding: 20px;
+            }   
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="top">
+            <div class="outer">
+                <div class="inner">
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            HI!
+        </div>
+    </div>
+</body>
+</html>
