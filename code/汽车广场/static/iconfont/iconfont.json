@@ -1,0 +1,37 @@
+{
+  "id": "1986150",
+  "name": "qiche",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "qi'che",
+  "glyphs": [
+    {
+      "icon_id": "2750066",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "813386",
+      "name": "评论 2",
+      "font_class": "pinglun2",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "12713506",
+      "name": "点赞",
+      "font_class": "zanpress",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15953782",
+      "name": "转发 ",
+      "font_class": "zhuanfafasong-3",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}
