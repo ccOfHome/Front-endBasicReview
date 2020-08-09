@@ -1,3 +1,5 @@
+#index页面
+
 logo-nav  https://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/header-logo-white-50ca261907.png
 
 http://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/header-logo-black-64a1f182be.png          
@@ -37,3 +39,33 @@ http://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-cus
   https://p0.meituan.net/travelcube/aa21d01edfbd24db548ab2d002343da860439.jpg
   https://p1.meituan.net/travelcube/582c4561abe1e2cc1e36636fcef9f0c236627.jpg
   https://p0.meituan.net/travelcube/7235a41b643a93ea23c6b90875689a7968302.jpg
+
+
+
+#home页面
+
+logo http://s0.meituan.net/bs/fe-web-meituan/fa5f0f0/img/logo.png
+
+轮播图 
+http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg
+http://p0.meituan.net/codeman/33ff80dc00f832d697f3e20fc030799560495.jpg
+https://p1.meituan.net/travelcube/01d2ab1efac6e2b7adcfcdf57b8cb5481085686.png
+http://p1.meituan.net/codeman/826a5ed09dab49af658c34624d75491861404.jpg
+http://p0.meituan.net/codeman/daa73310c9e57454dc97f0146640fd9f69772.jpg
+
+
+休闲生活 http://p0.meituan.net/codeman/e473bb428f070321269b23370ff02ba956209.jpg
+住酒店 http://p1.meituan.net/codeman/8cce56c467a17e04f3094d1e455462a0132772.png
+涨姿势 http://p1.meituan.net/codeman/16442c19da1f1c4544f794e29d99c92051716.jpg
+我是商家 http://p1.meituan.net/codeman/5b21cddb4bb1cbc3a9c3bce0f726c75940469.jpg
+
+二维码 http://s1.meituan.net/bs/fe-web-meituan/60ac9a0/img/download-qr.png
+
+
+
+头像 http://s0.meituan.net/bs/fe-web-meituan/e350c4a/img/avatar.jpg
+
+
+
+
+
